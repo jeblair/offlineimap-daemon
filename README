@@ -1,0 +1,9 @@
+This is a script to launch OfflineIMAP (and restart it if needed),
+when on AC power, and to gracefully stop it when on battery power.
+
+It uses the standard FreeDesktop dbus power management interface.  You
+can add it to your session startup mechanism.
+
+Development is at:
+
+  https://github.com/jeblair/offlineimap-daemon
